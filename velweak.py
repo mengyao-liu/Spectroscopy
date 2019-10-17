@@ -1,3 +1,6 @@
+# Identify the line association and peak velocity with each 1.3mm continuum core within the "core region" defined by 3"x3" square centered at the continuum core.
+# Threshold: there are more than 3 channels with signal above 2 sigma noise level, and the peak channel as well as its neighbor channels has signal above 2 sigma noise level
+# We record the peak velocity of each line and take the mean value as the systematic velocity of the core.
 import numpy as np
 import matplotlib
 from astropy.io import fits
